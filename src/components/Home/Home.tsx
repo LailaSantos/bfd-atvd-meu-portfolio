@@ -39,7 +39,7 @@ function Home() {
           title="Projeto F1 Surveys"
           description="Este projeto foi desenvolvido para fins de estudo, com o objetivo de aprofundar o conhecimento em JavaScript, HTML e CSS no contexto de desenvolvimento web. Além disso, 
          o projeto permite que você conheça as equipes e pilotos da temporada 2023 da Fórmula 1."
-          imageUrl={base + "assets/f1surveys.png"}
+          imageUrl={base + "assets/f1.png"}
           githubUrl="https://github.com/LailaSantos/f1-surveys"
           siteUrl="https://f1-surveys.netlify.app/"
         />
