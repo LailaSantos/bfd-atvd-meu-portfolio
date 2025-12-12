@@ -1,0 +1,180 @@
+.about-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  padding: 20px;
+}
+
+.about-card {
+  background: black;
+  max-width: 900px;
+  width: 100%;
+  border-radius: 16px;
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  flex-wrap: wrap;
+  box-shadow: 0 10px 25px rgba(183, 29, 239, 0.2);
+}
+
+.about-photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about-info {
+  flex: 1;
+}
+
+.about-info h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.about-info h2 {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.about-info p {
+  color: rgb(203, 195, 195);
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+.about-info ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.about-info li {
+  margin-bottom: 6px;
+}
+
+.about-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.about-buttons a {
+  text-decoration: none;
+  background: rgb(56, 4, 63);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.about-buttons a:hover {
+  background: rgb(193, 96, 246);
+}
+
+.email-container {
+  display: flex;
+  gap: 8px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: rgb(193, 96, 246);
+  font-weight: 500;
+}
+
+.email-link:hover {
+  text-decoration: none;
+}
+
+.about-contact {
+  text-align: center;
+  width: 100%;
+}
+
+.about-contact .email-container {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.about-contact .about-buttons {
+  justify-content: center;
+}
+
+.about-buttons {
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .about-card {
+    max-width: 700px;
+    padding: 25px;
+    gap: 25px;
+  }
+
+  .about-info h1 {
+    font-size: 28px;
+  }
+
+  .about-info h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-info {
+    text-align: center;
+  }
+
+  .about-buttons {
+    justify-content: center;
+  }
+
+  .about-contact .email-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-card {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .about-photo {
+    width: 160px;
+    height: 160px;
+  }
+
+  .about-info h1 {
+    font-size: 24px;
+  }
+
+  .about-info h2 {
+    font-size: 18px;
+  }
+
+  .about-info p {
+    font-size: 14px;
+  }
+
+  .about-buttons a {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+}
+

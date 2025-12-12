@@ -1,0 +1,99 @@
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 22px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 12px;
+}
+.card h2 {
+  min-height: 48px;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.card p {
+  min-height: 66px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #d1d5db;
+}
+.buttons {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btn-github,
+.btn-site {
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btn-github {
+  background: rgb(56, 4, 63);
+  color: #fff;
+}
+
+.btn-site {
+  background: rgb(56, 4, 63);
+  color: #fff;
+}
+
+.btn-site:hover,
+.btn-github:hover {
+  background: rgb(193, 96, 246);
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 18px;
+  }
+
+  .card h2 {
+    font-size: 18px;
+    min-height: auto;
+  }
+
+  .card p {
+    font-size: 13px;
+    min-height: auto;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn-github,
+  .btn-site {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .card img {
+    border-radius: 12px;
+  }
+}
