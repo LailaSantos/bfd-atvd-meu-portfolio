@@ -1,13 +1,13 @@
 import Footer from "../Footer/Footer";
 import "./About.css";
-import eu from "../../assets/eu.png";
+
 
 function About() {
   return (
     <>
       <section className="about-container">
         <div className="about-card">
-          <img src={eu} alt="Minha foto" className="about-photo" />
+          <img src="/assets/eu.png" alt="Minha foto" className="about-photo" />
 
           <div className="about-info">
             <p>
