@@ -3,11 +3,13 @@ import "./About.css";
 
 
 function About() {
+  const base = import.meta.env.BASE_URL;
+  
   return (
     <>
       <section className="about-container">
         <div className="about-card">
-          <img src="/bfd-atvd-meu-portfolio/assets/eu.png" alt="Minha foto" className="about-photo" />
+          <img src={base + "/assets/eu.png"} alt="Minha foto" className="about-photo" />
 
           <div className="about-info">
             <p>
