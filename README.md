@@ -4,7 +4,7 @@ Este repositório contém o código do meu portfólio, criado para apresentar me
 
 ## Link GitHub Pages✨
 
-👉 
+👉 https://lailasantos.github.io/bfd-atvd-meu-portfolio
 
 - Clique com o botão direito no link para abrir em uma nova aba.
 
