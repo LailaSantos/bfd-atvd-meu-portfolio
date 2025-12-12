@@ -7,7 +7,7 @@ function About() {
     <>
       <section className="about-container">
         <div className="about-card">
-          <img src="/assets/eu.png" alt="Minha foto" className="about-photo" />
+          <img src="assets/eu.png" alt="Minha foto" className="about-photo" />
 
           <div className="about-info">
             <p>
